@@ -1,0 +1,19 @@
+<div id="header">
+
+    <h1 id="titulo"><i id="sol" class="fas fa-sun"></i>Clima</h1><button onclick="">°C/°F</button>
+    <h2 id="pais">Chile -
+        <div id="ubicacion"></div>
+    </h2>
+
+
+</div>
+
+
+<div id="menu">
+    <ul>
+        <li><a [routerLink]="['/semana']" routerLinkActive="router-link-active">Valparaiso</a></li>
+        <li><a [routerLink]="['/semana2']" routerLinkActive="router-link-active">Metropolitana</a></li>
+        <li><a [routerLink]="['/semana3']" routerLinkActive="router-link-active">Bio bio</a></li>
+        <li><a [routerLink]="['/semana4']" routerLinkActive="router-link-active">Araucanía</a></li>
+    </ul>
+</div>

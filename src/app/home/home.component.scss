@@ -1,0 +1,50 @@
+#header {
+    width: 100%;
+    height: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#header #pais {
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#header #ubicacion {
+    float: right;
+}
+
+#header #mensaje {
+    float: right;
+    overflow: hidden;
+    text-align: right;
+}
+
+#menu ul {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+#menu li a:hover {
+    background-color: gray;
+    cursor: pointer;
+    padding: 10px;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
